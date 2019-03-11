@@ -79,17 +79,32 @@ class UsersController extends AppController
      */
     public function signUp()
     {
+
         $user = $this->Users->newEntity();
+
+//        print_r($this->request->getData());exit;
+//        print_r($user);exit;
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
-            if ($this->Users->save($user)) {
-                $this->Flash->success(__('The user has been saved.'));
+
+            $query = $this->Users->query();
+            $query->insert(['email', 'password','phone'])
+                ->values([
+                    'email' => $user['email'],
+                    'password' => $user['password'],
+                    'phone' => $user['phone ']
+                ]);
+
+            if ($query->execute()) {
+                $this->Flash->success(__('El usuario ha sido guardado correctamente :D'));
 
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('The user could not be saved. Please, try again.'));
+
+            $this->Flash->error(__('Imposible guardar. Intente de nuevo.'));
         }
         $this->set(compact('user'));
+
     }
 
     /**

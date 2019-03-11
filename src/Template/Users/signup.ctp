@@ -21,31 +21,49 @@
         ?>
     </fieldset>-->
 
-    <?= $this->Form->create($user) ?>
+    <?= $this->Form->create($user,['type'=>'post']) ?>
     <fieldset>
-        <legend>Signup</legend>
+        <legend>Registro</legend>
 
         <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                   placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.
-            </small>
+            <label for="phone">Teléfono</label>
+            <input type="text" name="phone" class="form-control" id="phone"
+                   placeholder="Introduce tu teléfono">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <label for="email">Correo</label>
+            <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                   placeholder="Introduce tu correo">
         </div>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        <label for="email">Contraseña</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <div class="input-group-text">
+                    <input type="checkbox" aria-label="Ver contraseña" id="PasswordView">
+                </div>
+            </div>
+            <input type="password" name="password" id="password" style="font-size: 25px;" class="form-control"
+                   aria-label="Text input with radio button">
         </div>
+        <small id="passwordHelp" class="form-text text-muted">Nunca compartas tu contraseña.
+        </small>
     </fieldset>
     <hr>
     <!--<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>-->
-    <?= $this->Form->button(__('Signup'),['class'=>'btn btn-primary btn-lg btn-block']) ?>
+    <?= $this->Form->button(__('Registrate'),['class'=>'btn btn-primary ']) ?>
 
     </fieldset>
 
     <?= $this->Form->end() ?>
 </div>
+<script>
+
+    $("#PasswordView").on("change", function () {
+        if ($("#PasswordView").is(':checked')) {
+            $("#password").attr("type", 'text')
+        } else {
+            $("#password").attr("type", 'password')
+        }
+    })
+
+</script>
