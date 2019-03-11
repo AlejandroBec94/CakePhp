@@ -12,6 +12,7 @@
  * @since     0.2.9
  * @license   https://opensource.org/licenses/mit-license.php MIT License
  */
+
 namespace App\Controller;
 
 use Cake\Controller\Controller;
@@ -45,6 +46,19 @@ class AppController extends Controller
             'enableBeforeRedirect' => false,
         ]);
         $this->loadComponent('Flash');
+        $this->loadComponent('Auth', [
+            'loginAction' => [
+                'controller' => 'Users',
+                'action' => 'login'
+            ],
+            'authError' => 'Hey hey hey, ¿a donde? ¬n¬',
+            'authenticate' => [
+                'Form' => [
+                    'fields' => ['username' => 'email','password'=>'password']
+                ]
+            ],
+            'storage' => 'Session'
+        ]);
 
         /*
          * Enable the following component for recommended CakePHP security settings.
