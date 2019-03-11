@@ -1029,3 +1029,5 @@ Request URL: /?redirect=%2Fusers
 Referer URL: http://bec.com/CakeAuth/?redirect=%2Fusers
 
 
+2019-03-11 23:18:13 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:18:13 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.

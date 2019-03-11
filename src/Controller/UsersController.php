@@ -88,7 +88,7 @@ class UsersController extends AppController
                 $user = $this->Auth->identify();
 
                 if ($user) {
-                    $this->Auth->setUser();
+                    $this->Auth->setUser($user);
                     $this->Flash->success(__('Autenticación aceptada'));
                     return $this->redirect(['controller' => 'Users', 'action' => 'index']);
                 }
