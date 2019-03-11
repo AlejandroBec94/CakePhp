@@ -943,3 +943,89 @@ Request URL: /users/signup
 2019-03-11 22:14:27 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2019-03-11 22:14:28 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
 2019-03-11 22:14:28 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:24:01 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:24:02 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:24:56 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:25:28 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:25:30 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:25:30 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:26:22 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:26:43 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:26:53 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:26:59 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:31:59 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:32:05 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:32:46 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:32:56 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:33:02 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:33:08 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:33:08 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 22:35:19 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:04:59 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:05:00 Error: [ParseError] syntax error, unexpected '}', expecting ';'
+#0 C:\xampp\htdocs\CakeAuth\vendor\composer\ClassLoader.php(322): Composer\Autoload\includeFile('C:\\xampp\\htdocs...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controller\\...')
+#2 [internal function]: spl_autoload_call('App\\Controller\\...')
+#3 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Core\App.php(152): class_exists('App\\Controller\\...')
+#4 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Core\App.php(64): Cake\Core\App::_classExistsInBase('\\Controller\\Use...', 'App')
+#5 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(92): Cake\Core\App::className('Users', 'Controller', 'Controller')
+#6 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#7 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\xampp\htdocs\CakeAuth\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /?redirect=%2Fusers%2Fedit
+
+
+2019-03-11 23:05:08 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:05:36 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:06:42 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:08:23 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:13:49 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:13:55 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:18 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:27 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:35 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:44 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:56 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:57 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:14:57 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:15:06 Warning: DebugKit is disabling itself as your host `bec.com` is not in the known safe list of top-level-domains (localhost, invalid, test, example, local). If you would like to force DebugKit on use the `DebugKit.forceEnable` Configure option.
+2019-03-11 23:15:07 Error: [ArgumentCountError] Too few arguments to function Cake\Controller\Component\AuthComponent::setUser(), 0 passed in C:\xampp\htdocs\CakeAuth\src\Controller\UsersController.php on line 91 and exactly 1 expected
+#0 C:\xampp\htdocs\CakeAuth\src\Controller\UsersController.php(91): Cake\Controller\Component\AuthComponent->setUser()
+#1 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Controller\Controller.php(610): App\Controller\UsersController->login()
+#2 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#3 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#4 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\BaseApplication.php(235): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(108): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\xampp\htdocs\CakeAuth\vendor\cakephp\cakephp\src\Http\Server.php(98): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\xampp\htdocs\CakeAuth\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /?redirect=%2Fusers
+Referer URL: http://bec.com/CakeAuth/?redirect=%2Fusers
+
+

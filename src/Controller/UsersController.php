@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Controller\AppController;
+use Cake\Event\Event;
 
 /**
  * Users Controller
@@ -13,6 +14,12 @@ use App\Controller\AppController;
  */
 class UsersController extends AppController
 {
+
+    public function beforeFilter(Event $event)
+    {
+        $this->Auth->allow(['signUp', 'forgotPassword']);
+//        $this->Auth->deny(['index','']);
+    }
 
     /**
      * Index method
@@ -69,7 +76,30 @@ class UsersController extends AppController
      */
     public function login()
     {
-        //Login function
+
+
+        if ($this->request->is('post')) {
+
+            if ($this->Auth->user('id')) { //Check if user is logged in already
+                $this->Flash->success(__('Y estás logueado'));
+                return $this->redirect(['controller' => 'Users', 'action' => 'index']);
+            } else {
+                //Si el usuario no está autenticado
+                $user = $this->Auth->identify();
+
+                if ($user) {
+                    $this->Auth->setUser();
+                    $this->Flash->success(__('Autenticación aceptada'));
+                    return $this->redirect(['controller' => 'Users', 'action' => 'index']);
+                }
+
+                $this->Flash->error(__('Autenticación erronea'));
+
+            }
+        }/*
+        $this->set(['user' => $user]);
+        $this->set('_serialize', ['user']);*/
+
     }
 
     /**
@@ -111,6 +141,11 @@ class UsersController extends AppController
         }
         $this->set(compact('user'));
 
+    }
+
+    public function forgotPassword()
+    {
+        // empty for now
     }
 
     /**
