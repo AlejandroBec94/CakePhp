@@ -102,6 +102,11 @@ class UsersController extends AppController
 
     }
 
+    function logout(){
+        $this->Flash->success(__('Has cerrado sesión'));
+        $this->redirect($this->Auth->logout());
+    }
+
     /**
      * Add method
      *
