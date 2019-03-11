@@ -87,7 +87,13 @@ class UsersController extends AppController
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->getData());
 
-            $query = $this->Users->query();
+            if ($this->Users->save($user)) {
+                $this->Flash->success(__('El usuario ha sido guardado correctamente :D'));
+
+                return $this->redirect(['action' => 'index']);
+            }
+
+            /*$query = $this->Users->query();
             $query->insert(['email', 'password','phone'])
                 ->values([
                     'email' => $user['email'],
@@ -99,7 +105,7 @@ class UsersController extends AppController
                 $this->Flash->success(__('El usuario ha sido guardado correctamente :D'));
 
                 return $this->redirect(['action' => 'index']);
-            }
+            }*/
 
             $this->Flash->error(__('Imposible guardar. Intente de nuevo.'));
         }

@@ -27,13 +27,17 @@
 
         <div class="form-group">
             <label for="phone">Teléfono</label>
-            <input type="text" name="phone" class="form-control" id="phone"
-                   placeholder="Introduce tu teléfono">
+            <!--<input type="text" name="phone" class="form-control" id="phone"
+                   placeholder="Introduce tu teléfono">-->
+            <?php  echo $this->Form->control('phone',['type'=>'text','name'=>'phone','class'=>'form-control','id'=>'phone','placeholder'=>'Introduce tu teléfono']); ?>
+
         </div>
         <div class="form-group">
             <label for="email">Correo</label>
-            <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
-                   placeholder="Introduce tu correo">
+            <!--<input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                   placeholder="Introduce tu correo">-->
+            <?php echo $this->Form->control('email',['type'=>'email','name'=>'email','class'=>'form-control','id'=>'email','describedby'=>'emailHelp','placeholder'=>'Introduce tu correo']); ?>
+            <!--<?= $this->Form->control('email',['placeholder'=>'Introduce tu Correo','class'=>'form-control']); ?>-->
         </div>
         <label for="email">Contraseña</label>
         <div class="input-group">
@@ -42,12 +46,17 @@
                     <input type="checkbox" aria-label="Ver contraseña" id="PasswordView">
                 </div>
             </div>
-            <input type="password" name="password" id="password" style="font-size: 25px;" class="form-control"
-                   aria-label="Text input with radio button">
+            <!--<input type="password" name="password" id="password" style="font-size: 25px;" class="form-control"
+                   aria-label="Text input with radio button">-->
+            <?php echo $this->Form->control('password',['type'=>'password','name'=>'password','class'=>'form-control','id'=>'password','style'=>'font-size: 25px;','placeholder'=>'Introduce tu contraseña','aria-label'=>"Text input with radio button"]); ?>
+
         </div>
         <small id="passwordHelp" class="form-text text-muted">Nunca compartas tu contraseña.
         </small>
+        <?php
+        ?>
     </fieldset>
+
     <hr>
     <!--<button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>-->
     <?= $this->Form->button(__('Registrate'),['class'=>'btn btn-primary ']) ?>
